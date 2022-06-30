@@ -1,4 +1,13 @@
-#!/bin/sh
-set `wc -l -w -c abc.doc`
-file "abc.doc co $1 dong, $2 tu, $3 ky tu"
-exit 0
+echo "Nhap vao mot so bat ky:"
+read so
+if [ $so -lt 0 ]
+then
+ echo "$so la so am"
+else
+ if [ $so -gt 0 ]
+  then
+   echo "$so la so duong"
+ else
+   echo "$o la so 0"
+ fi
+fi
