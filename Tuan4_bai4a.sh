@@ -19,3 +19,4 @@ while [ $num -eq 0 ]
 			echo "file khong ton tai"
 		fi
 	done
+
