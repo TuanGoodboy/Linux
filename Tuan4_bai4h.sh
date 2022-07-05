@@ -9,3 +9,4 @@ else
   echo "Error: ${DIR} not found. Can not continue."
   exit 1
 fi
+
