@@ -24,8 +24,6 @@ else
 	elif [ $denta -eq 0 ] ; then 
 		echo -n " phuong trinh co mot nghiem kep x = "
 		x=$(echo "scale=2; -$b / (2 * $a)" | bc ) 
-# viet khong cach sau dau = ( sau toan tu phai cach ra ) nho ( |bc )
-# scale = $ -> lay bao nhieu chu so thap phan 
 		echo "$x"
 	else
 		echo " phuong trinh co 2 nghiem phan biet "
