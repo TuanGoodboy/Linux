@@ -31,3 +31,4 @@ if [ $ten_file != 'delfile.sh' ]
 else
 	echo -e "\t$ten_file la file dang chay khong the xoa!"
 fi
+
